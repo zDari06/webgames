@@ -6,7 +6,7 @@ var ballX;
 var ballY;
 var ballWidth = 30;
 var ballHeight = 30;
-var ballSpeed = 5;
+var ballSpeed = 8;
 var ballDirectionX = -1;
 var ballDirectionY = 1;
 
@@ -89,7 +89,8 @@ function p1Wins(){
     textSize(50);
     text('REFRESH TO TRY AGAIN', width/2, 250);
     
-
+    textSize(150);
+    text('Your Gift: U', width/2, 450)
 }
 
 function p2Wins(){
@@ -102,6 +103,9 @@ function p2Wins(){
 
     textSize(50);
     text('REFRESH TO TRY AGAIN', width/2, 250);
+
+    textSize(150);
+    text('Your Gift: U', width/2, 450)
 
 }
 
@@ -172,11 +176,11 @@ function pong() {
         ballY = height/2;
     }
 
-    if(p1Score>= 10){
+    if(p1Score>= 2){
         stage =2; //run p1wins
     }
 
-    if(p2Score>= 10){
+    if(p2Score>= 2){
         stage =3; //run p1wins
     }
 }
