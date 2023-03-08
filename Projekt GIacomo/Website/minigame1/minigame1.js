@@ -169,7 +169,7 @@ function resetGame(){
 function giveCharacter(){
     let result = '0';
     if(checkGameOver === true)    {
-        result ='Your Gift: S';
+        result ='Gift = S';
     }
     return result;
 }
