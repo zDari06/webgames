@@ -78,7 +78,7 @@ function moveSnake(){
         if(snake[0].x == foodX && snake[0].y == foodY){
             score+=1;
             if(score>=2){
-                resultLetter.textContent = "S";
+                resultLetter.textContent = "Your Gift: S";
             }
             scoreText.textContent = score;
             createFood();
@@ -169,7 +169,7 @@ function resetGame(){
 function giveCharacter(){
     let result = '0';
     if(checkGameOver === true)    {
-        result ='S';
+        result ='Your Gift: S';
     }
     return result;
 }
