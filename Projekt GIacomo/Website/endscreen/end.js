@@ -3,7 +3,7 @@ const submitBtn = document.getElementById('submit')
 submitBtn.addEventListener('click', () => {
     const answer = document.getElementById('answer').value
     const win = document.getElementById('message')
-    if(answer === "sui") {
+    if(answer === "SUI") {
         win.innerHTML = `<h4>Du hast das Wort gefunden</h4>`
     }
     else {

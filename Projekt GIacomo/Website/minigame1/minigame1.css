@@ -24,13 +24,8 @@ body    {
 #resultLetter{
     font-size: 100px;
     color: red;
+}
 
-}
-#pong   {
-    font-size: 30px;
-    margin-top: 50px;
-    margin-left: 70%;
-}
 #nextPagePong   {
     font-family: "Permanent Marker", cursive;
     color: rgb(255, 1, 192);
