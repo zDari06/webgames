@@ -43,3 +43,14 @@ body {
     opacity: 1;
     font-size: 1.5rem;
   }
+  #nextPageEnd  {
+    font-family: "Permanent Marker", cursive;
+    color: rgb(255, 1, 192);
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 90%;
+}
